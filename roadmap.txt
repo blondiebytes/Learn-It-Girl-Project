@@ -1,6 +1,14 @@
 Learn It, Girl! Roadmap
 
-Project: A web application that has databases, uses Python for back-end, and does something cool. Maybe with randomization or machine learning or a visualization of data ~ something about traveling?
+Overall Idea: A web application that has databases, uses Python for back-end, and does something cool.
+Maybe with randomization or machine learning or a visualization of data ~ something about traveling?
+Like something pretty showing how many people take flights to and from places. Colors for cost of flight?
+--> could even do just one airline. 
+Or even just travel in general --> trains and planes --> different colors for each. 
+
+Project: A web application that takes train and flight data and does something with it visually. 
+Filters for cost, distance/time-traveled, international or not, delayed or not, etc. 
+
 
 Week 1:
 - Create Hello World in Python
