@@ -1,6 +1,6 @@
 Learn It, Girl! Roadmap
 
-Project: A web application that has databases, uses Python for back-end, and does something cool. Maybe with randomization or machine learning or a visualization of data. 
+Project: A web application that has databases, uses Python for back-end, and does something cool. Maybe with randomization or machine learning or a visualization of data ~ something about traveling?
 
 Week 1:
 - Create Hello World in Python
@@ -21,16 +21,19 @@ Week 4:
 - Test database functionality and solve any bugs
 
 Week 5:
-- Learn about back-end and begin implementing
+- Work on messing with data things
 
 Week 6:
-- Finish back-end with tests
+- Mess with the data more
 
 Week 7:
-- Create Mockups for the UI
+- Learn about back-end and begin implementing
 
-Week 8 and 9:
-- Begin implementing the UI
+Week 8:
+- Finish back-end with tests
+
+Week 9:
+- - Create Mockups for the UI and begin implementing
 
 Week 10 and 11:
 - Add functionality to the UI
