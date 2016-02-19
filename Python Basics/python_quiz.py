@@ -49,28 +49,30 @@ w2 = "Wrong! I love tap dancing so much."
 w3 = "Wrong, you know nothing Jon Snow! I grew up in Sugar Land, TX."
 wrongResponses = [w1, w2, w3]
 
-count = 0
-numberOfCorrectAnswers = 0
-for q in questions :
-	# Is there a way to add padding between printing out q
-	# and where you grab the input??
-	answer = input(q)
-	if answer.lower() == answers[count]:
-		print(correctResponses[count])
-		numberOfCorrectAnswers = numberOfCorrectAnswers + 1
+# YAY for recursion.
+def display(correctNum):
+	if correctNum == 0:
+		return ""
+	else: return "*" + display(correctNum-1)
+
+def playGame(numberOfCorrectAnswers=0, questionCount=0):
+	for q in questions :
+		# Is there a way to add padding between printing out q
+		# and where you grab the input??
+		answer = input(q)
+		if answer.lower() == answers[questionCount]:
+			print(correctResponses[questionCount])
+			numberOfCorrectAnswers = numberOfCorrectAnswers + 1
+		else:
+			print(wrongResponses[questionCount])
+		questionCount = questionCount + 1
+		print("\n")
+	if numberOfCorrectAnswers > 0:
+		print("Congrats! You get " + str(display(numberOfCorrectAnswers)) + " correct!")
 	else:
-		print(wrongResponses[count])
-	count = count + 1
-	print("\n")
+		print("Sadly, you got all of the questions wrong.")
 
-if (numberOfCorrectAnswers > 0):
-	print("Congrats! You got", numberOfCorrectAnswers, "correct!")
-else
-	print("Sadly, you got all of the questions wrong.")
+playGame()
 
 
-# TO DO:
-# Add in enumerate stuff
-# Look up elif
-# Visualize results
-# How to read and write from a file in Python?
+
