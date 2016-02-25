@@ -155,7 +155,7 @@ given = 0
 while given <= 5:
 	ans = input("Enter a number that is greater than 5: ")
 	given = int(ans)
-print("You said "+ ans) # ?? Scope? WHAT IS scope here. Weird.
+print("You said "+ ans) # ?? Scope? Based on method.
 print("\n")
 
 # 7. Tweet Validator

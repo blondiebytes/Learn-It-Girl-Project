@@ -4,7 +4,7 @@
 # multiple times
 
 def say_hello_to(name) :
-	greeting = "Hello " + name
+    greeting = "Hello " + name
 	return greeting
 
 print(say_hello_to("everyone!"))
@@ -28,7 +28,7 @@ print("\n")
 
 # 2. Print the number of characters in the word 
 # 'MORPHOGENESIS'
-word = 'MORPHOGENESIS' # Do single VS double quotes matter ever??
+word = 'MORPHOGENESIS' # Do single VS double quotes? -The same
 length = 0
 for letter in word:
 	length = length + 1
