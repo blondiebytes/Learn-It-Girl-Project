@@ -1,2 +1,2 @@
-# Learn-It-Girl-Project
-Working one-on-one with a Learn It, Girl mentor to discover the intricacies of Python and code an awesome project!
+# Learn-It-Girl-Project: TravelMetric
+Working one-on-one with a Learn It, Girl mentor to discover the intricacies of Python and code an awesome project, TravelMetrics! TravelMetrics is an educational application that tailors its problems to the user's preferences and takes users on a traveling adventure. The user would fill out a quiz stating their interests and the application would customize an adventure according to what the user inputs. The story would start with the main character at home and the user would have to answer math questions, such as how much gas do I need to get to the airport or how much will a cup of coffee cost with tip and tax? in order to continue the trip. The goal of this application is to make learning math more captivating, personal, and entertaining overall!
