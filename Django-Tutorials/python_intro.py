@@ -19,6 +19,7 @@ for i in range(1, 6):
 	print(i)
 
 # source myvenv/bin/activate --> activate virtual environment
+# pip install django
 # django-admin startproject mysite . --> get stuff
 # add var STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # to see if it works http://127.0.0.1:8000/
