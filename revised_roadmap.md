@@ -6,11 +6,12 @@
 - [x] Complete Python exercise
 
 ### Week 2
-* Learn Django
- - [ ] Complete Django Girls tutorial
+* Learn Django:
+ - [x] Complete Django Girls tutorial
 
 ### Week 3
-* Continue learning Django
+* Continue learning Django:
+- [ ] Complete Django Girls tutorial extension
  - [ ] Complete tutorials in the Django documentation
 - [ ] Create wireframes for basic functionality (basic functionality only) for flight application
 
