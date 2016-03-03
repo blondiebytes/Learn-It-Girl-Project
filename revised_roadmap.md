@@ -6,16 +6,17 @@
 - [x] Complete Python exercise
 
 ### Week 2
-* Learn Django
- - [ ] Complete Django Girls tutorial
+* Learn Django:
+ - [x] Complete Django Girls tutorial
 
 ### Week 3
-* Continue learning Django
+* Continue learning Django:
+- [ ] Complete Django Girls tutorial extension
  - [ ] Complete tutorials in the Django documentation
-- [ ] Create wireframes for basic functionality (basic functionality only) for flight application
+- [ ] Create wireframes for basic functionality (basic functionality only) for project
 
 ### Week 4 (create a very basic application now since we need a working application by the midterm in Week 6)
-- [ ] Create basic “template” application for flight application using Django (get everything set up for development)
+- [ ] Create basic “template” application for project using Django (get everything set up for development)
 - [ ] Start coding basic functionality (typically develop all layers of the application at the same time)
 * For now use very simple sample data since we haven’t learned databases yet
 
