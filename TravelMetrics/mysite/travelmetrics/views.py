@@ -13,5 +13,4 @@ def index(request):
 
 def question_two(request):
 	template = loader.get_template('travelmetrics/question2.html')
-	print("hi")
 	return HttpResponse(template.render(request))
