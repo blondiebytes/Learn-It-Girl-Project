@@ -2,7 +2,7 @@
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="{% static 'styleQ1.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
 <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
 
 
@@ -17,19 +17,12 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-2 text-center" id="answer-col-1">
-			<a href="{% url 'travelmetrics:question_two' %}">
-				<button type="submit" class="btn btn-primary" id="answer-1">Spring</button> </a> <br> <br>
-				<form method="post" action="http://bit.ly/1VvxnGf">
-				<button type="submit" class="btn btn-primary" id="answer-2">Summer</button>
-				</form>
+				<button type="button" class="btn btn-primary" id="answer-1">Spring</button> <br> <br>
+				<button type="button" class="btn btn-primary" id="answer-2">Summer</button>
 			</div>
 			<div class="col-md-2 text-center" id="answer-col-2">
-			<form method="post" action="http://bit.ly/1VvxnGf">
 				<button type="button" class="btn btn-primary" id="answer-3">Fall</button> <br> <br>
-				</form>
-			<form method="post" action="">
 				<button type="button" class="btn btn-primary" id="answer-4">Winter</button>
-				</form>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
