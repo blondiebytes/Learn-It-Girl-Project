@@ -4,7 +4,7 @@
 }
 
 body {
-	 background-image: url("travelmetrics/images/fall2.jpeg");
+	 background-image: url("travelmetrics/images/winter3.jpeg");
  	background-size: 1440px 800px;
  	background-repeat:no-repeat;
 }
@@ -17,9 +17,20 @@ body {
     vertical-align: middle;
 }
 
-
 #question {
 	padding-bottom: 50px;
-	color:white;
+	color:#3B4355;
+	margin-top: -10px;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+
+  background-color: #BD9899;
+  border-color: #BD9899;
+ }
+
+.btn
+{
+  background-color: #3B4355;
+  border-color: #3B4355;
+}
