@@ -1,0 +1,25 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ html, body, .container-table {
+    height: 100%;
+}
+
+body {
+	 background-image: url("travelmetrics/images/fall2.jpeg");
+ 	background-size: 1440px 800px;
+ 	background-repeat:no-repeat;
+}
+
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#question {
+	padding-bottom: 50px;
+	color:white;
+}
+
