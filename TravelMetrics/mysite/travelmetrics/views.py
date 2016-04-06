@@ -11,6 +11,14 @@ def index(request):
 	#return render(request, 'travelmetrics/index.html')
 	#return HttpResponse("Hello World! Travel Metrics Index")
 
+def question_one(request):
+	template = loader.get_template('travelmetrics/question1.html')
+	return HttpResponse(template.render(request))
+
 def question_two(request):
 	template = loader.get_template('travelmetrics/question2.html')
+	return HttpResponse(template.render(request))
+
+def question_three(request):
+	template = loader.get_template('travelmetrics/question3.html')
 	return HttpResponse(template.render(request))

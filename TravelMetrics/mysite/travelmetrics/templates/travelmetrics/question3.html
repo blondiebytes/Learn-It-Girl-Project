@@ -2,7 +2,7 @@
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'styleQ3.css' %}" />
 <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.1.0/bootstrap.min.js"></script>
 
 
@@ -17,12 +17,20 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-2 text-center" id="answer-col-1">
+			<a href="{% url 'travelmetrics:index' %}">
 				<button type="button" class="btn btn-primary" id="answer-1">Blue</button> <br> <br>
+			</a>
+			<a href="{% url 'travelmetrics:index' %}">
 				<button type="button" class="btn btn-primary" id="answer-2">Green</button>
+			</a>
 			</div>
 			<div class="col-md-2 text-center" id="answer-col-2">
+			<a href="{% url 'travelmetrics:index' %}">
 				<button type="button" class="btn btn-primary" id="answer-3">Red</button> <br> <br>
+			</a>
+			<a href="{% url 'travelmetrics:index' %}">
 				<button type="button" class="btn btn-primary" id="answer-4">Purple</button>
+			</a>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
